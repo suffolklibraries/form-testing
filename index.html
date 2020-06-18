@@ -18,12 +18,19 @@
       <form action="https://formspree.io/xeqrzena" method="POST" class="sans-serif">
 
         <label for="name" class="db mb1">Name</label>
-        <input type="text" id="name" name="name" class="db mb2">
+        <input type="text" id="name" name="name" class="db mb2 border-box w-100 pa1">
 
         <label for="email" class="db mb1">Email</label>
-        <input type="email" id="email" name="_replyto" class="db mb2">
+        <input type="email" id="email" name="_replyto" class="db mb2 border-box w-100 pa1">
 
-        <button type="submit" value="Send">Submit</button>
+        <label for="library" class="db mb1">Library</label>
+        <select id="library" name="library" class="db mb2 order-box w-100 pa1">
+          <option selected></option>
+          <option>Leon</option>
+          <option>Not Leon</option>
+        </select>
+
+        <button type="submit">Submit</button>
 
       </form>
 
